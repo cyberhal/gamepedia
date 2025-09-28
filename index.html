@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gamepedia · 游戏式知识冒险</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <span class="badge">互动百科</span>
+          <h1>把复杂概念转化为可游玩的冒险</h1>
+          <p>
+            Gamepedia 不是传统的游戏目录，而是一座以关卡、任务和即时反馈构成的知识乐园。
+            我们用游戏式交互把抽象的概念和问题拆解成一步步可探索的旅程。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#features">开始探索</a>
+            <a class="button button--ghost" href="#modules">浏览示例模块</a>
+          </div>
+          <dl class="hero__meta">
+            <div class="hero__stat">
+              <dt>任务化解说</dt>
+              <dd>120+</dd>
+            </div>
+            <div class="hero__stat">
+              <dt>实时互动组件</dt>
+              <dd>45+</dd>
+            </div>
+            <div class="hero__stat">
+              <dt>学习世界</dt>
+              <dd>16</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero__preview">
+          <div class="interface">
+            <header class="interface__header">
+              <span class="interface__label">任务卡</span>
+              <span class="interface__title">解锁量子叠加</span>
+            </header>
+            <div class="interface__body">
+              <p>
+                通过一个<span class="highlight">光子分叉实验</span>来理解叠加态：拖动探测器，观察干涉条纹如何改变。
+              </p>
+              <div class="interface__progress" aria-hidden="true">
+                <div class="interface__progress-bar" style="width: 68%"></div>
+              </div>
+              <ul class="interface__choices">
+                <li>
+                  <button type="button">调整探测器角度 +15°</button>
+                </li>
+                <li>
+                  <button type="button">切换到双缝遮挡模式</button>
+                </li>
+                <li>
+                  <button type="button">请求引导提示</button>
+                </li>
+              </ul>
+            </div>
+            <footer class="interface__footer">
+              <div class="interface__status">
+                <span class="status-dot"></span>
+                <span>探索进度 3/5</span>
+              </div>
+              <button class="button button--secondary" type="button">继续任务</button>
+            </footer>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="features" class="section section--muted">
+          <div class="section__header">
+            <span class="badge">核心玩法</span>
+            <h2>以游戏机制驾驭知识曲线</h2>
+            <p>
+              Gamepedia 采用 shadcn/ui 的绿色主题，将视觉层次与互动反馈结合，帮助你在沉浸式体验中掌握复杂主题。
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <div class="icon icon--primary">🧭</div>
+              <h3>任务驱动叙事</h3>
+              <p>
+                用主线与支线任务引导理解路径，每一步都伴随即时的反馈与可视化演示。
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon icon--outline">🎛️</div>
+              <h3>可操作控件</h3>
+              <p>
+                拖拽滑块、切换开关、组合卡片，亲手操作变量，让抽象概念在互动中变得具体。
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon icon--subtle">🕸️</div>
+              <h3>知识图谱联结</h3>
+              <p>
+                自动串联相关主题，像探索游戏地图一样发现新的概念邻居和延伸挑战。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="modules" class="section section--inset">
+          <div class="section__header">
+            <span class="badge">互动模块示例</span>
+            <h2>把每个问题拆成手感十足的步骤</h2>
+            <p>
+              每个模块都包含故事背景、操作面板和即时评估。打开任意任务，亲手体验 Gamepedia 的游戏式讲解方式。
+            </p>
+          </div>
+          <div class="module-grid">
+            <details class="module" open>
+              <summary>「循环系统」体验关卡</summary>
+              <div class="module__content">
+                <p>
+                  从微缩血液模型开始，拖动阀门控制流速，观察氧气指标与体温的变化，逐步建立对循环系统的直觉。
+                </p>
+                <div class="module__chips">
+                  <span>交互仪表盘</span>
+                  <span>动态提示</span>
+                </div>
+              </div>
+            </details>
+            <details class="module">
+              <summary>「极简经济学」策略演练</summary>
+              <div class="module__content">
+                <p>
+                  利用供需滑块调整虚拟市场，系统实时反馈均衡价格与社会福利，帮助学习者理解政策背后的推演过程。
+                </p>
+                <div class="module__chips">
+                  <span>多结局</span>
+                  <span>即时回放</span>
+                </div>
+              </div>
+            </details>
+            <details class="module">
+              <summary>「算法冒险」视觉化任务</summary>
+              <div class="module__content">
+                <p>
+                  通过步进播放和节点标注，跟随角色在图论迷宫中寻找最短路径，让复杂算法像走迷宫一样直观。
+                </p>
+                <div class="module__chips">
+                  <span>可视动画</span>
+                  <span>速度控制</span>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section id="worlds" class="section">
+          <div class="section__header">
+            <span class="badge">探索世界</span>
+            <h2>挑选一个知识宇宙，开始冒险</h2>
+            <p>
+              Gamepedia 的每个世界都围绕主题设计关卡，从入门引导到挑战任务，让学习旅程保持游戏化的节奏。
+            </p>
+          </div>
+          <div class="collection">
+            <div class="collection__card">
+              <div class="collection__image collection__image--emerald"></div>
+              <div class="collection__content">
+                <h3>科学观测站</h3>
+                <p>
+                  聚焦物理与生命科学，用实验模拟与实时图表展示现象背后的规律。
+                </p>
+                <a class="link" href="#">进入世界 →</a>
+              </div>
+            </div>
+            <div class="collection__card">
+              <div class="collection__image collection__image--mint"></div>
+              <div class="collection__content">
+                <h3>思维工坊</h3>
+                <p>
+                  通过逻辑谜题和系统思维挑战，构建复杂问题的拆解框架。
+                </p>
+                <a class="link" href="#">进入世界 →</a>
+              </div>
+            </div>
+            <div class="collection__card">
+              <div class="collection__image collection__image--forest"></div>
+              <div class="collection__content">
+                <h3>未来文明志</h3>
+                <p>
+                  探索社会科学与技术伦理议题，用角色扮演的方式推演未来情境。
+                </p>
+                <a class="link" href="#">进入世界 →</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Gamepedia. 与你一起把知识玩出新花样。</p>
+        <nav class="footer__nav">
+          <a href="#features">核心玩法</a>
+          <a href="#modules">互动模块</a>
+          <a href="#worlds">探索世界</a>
+        </nav>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
